@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<navigator url='' open-type="switchTab"></navigator>
+<view class="container">
+   <view class="userinfo" wx:if="{{!hasUserInfo}}"></view> 
+   <block wx:else>
+   <view class='onlyView'>
+      <image bindtap="bindViewTap" class="only_tou" src="image.png" background-size="cover"></image>
+      <button bindtap="bindViewTap" class="onlyBtn">单选投票</button>
+   </view>
+   <view class='moreView'>
+      <image bindtap="bindViewTap" class="more_tou" src="image.png" background-size="cover"></image>
+      <button bindtap="bindViewTap" class="moreBtn">多选投票</button>
+    </view> 
+    </block>
+  </view>

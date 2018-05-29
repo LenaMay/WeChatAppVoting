@@ -1,0 +1,52 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: ghostwhite;
+} 
+
+.onlyView{
+ margin: 00px 0px 0px 0px;
+ background-color: white;
+ 
+}
+
+.moreView{
+  margin: 10px 0px 50px 0px;
+  background-color:white;
+}
+
+.only_tou{
+  /* margin: 10px 50% 10px 50%; */
+  width: 40%;
+  height:100px;
+  margin: 20px 30%;
+  background-color: paleturquoise;
+}
+
+ .onlyBtn{
+  margin: 0px 15% 20px 15%;
+  color: white;
+  background-color: dodgerblue;
+}
+
+.more_tou{
+  width: 40%;
+  height:100px;
+  margin: 20px 30%;
+  background-color: paleturquoise;
+
+}
+
+.moreBtn{
+  margin: 0px 15% 20px 15%;
+  color: white;
+  background-color:dodgerblue;
+} 
+
+

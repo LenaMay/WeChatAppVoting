@@ -1,0 +1,12 @@
+<!--pages/CreatTouPiao/index.wxml-->
+
+<view class="container">
+<scroll-view>
+<input class='title' type='text' placeholder='投票标题'></input>
+<view class='line'></view>
+<input class='descript' type='text' placeholder='补充描述（选填）'></input>
+<view class='line'></view>
+<view></view>
+</scroll-view>
+</view>
+

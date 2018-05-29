@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/CreatTouPiao/index",
+    "pages/MyToupiao/myToupiaoList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "跟谁学投票",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "borderStyle": "#000",
+    "selectedColor": "#9999FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "新建",
+        "iconPath": "pages/image/ic_selected.png",
+        "selectedIconPath": "pages/image/ic_selected.png"
+      },
+      {
+        "pagePath": "pages/MyToupiao/myToupiaoList",
+        "text": "我的",
+        "iconPath": "pages/image/ic_selected.png",
+        "selectedIconPath": "pages/image/ic_selected.png"
+      }
+    ]
+  }
+}
